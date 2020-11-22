@@ -1,0 +1,223 @@
+.navbar{
+    background-color:rgb(156, 10, 0)!important;
+}
+.navbar .navbar-brand{
+    color:white!important;
+}
+.navbar .navbar-brand:hover{
+    color:black!important;
+}
+.navbar-nav li a{
+    color:white!important;
+}
+.navbar-nav li a:hover{
+    color:black!important;
+}
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    color:black!important;
+    background-color:white!important;
+}
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+ color:white!important;
+ background-color:rgb(156, 10, 0)!important;
+ opacity:.9;
+}
+.navbar-toggler{
+
+
+}
+
+
+
+body{
+	background-color:rgb(232, 237, 234);
+  
+}
+#hi{
+    margin :40px 10px;
+}
+
+.flip-card {
+ 
+  background-color: transparent;
+  width: 280px;
+  height: 350px;
+  box-shadow: 0 8px 16px 0 rgb(128, 19, 19);
+  
+   border-radius: 45px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  box-shadow: 0 8px 16px 8px rgb(128, 19, 19);
+  border-radius:45px;
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+   
+   border-radius: 45px;
+  
+}
+.flip-card-back{
+	 border :4px solid rgb(179, 167, 9);
+}
+
+
+/* Container holding the image and the text */
+.container {
+ position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  opacity:0.8;
+  text-align:center;
+  font-family: 'Courgette', cursive;
+}
+#img{
+
+	border-radius: 45px;
+	/* border :4px solid rgb(179, 167, 9);*/
+	border:4px solid black;
+}
+
+
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(128, 19, 19);
+  font-family: 'Courgette', cursive;
+  /*font-family: 'Alatsi', sans-serif;*/
+  /*font-family: "Times New Roman", Times, serif;*/
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+p{
+	text-align:left;
+}
+
+.footer{
+	height:250px;
+	background-color:rgb(16, 17, 20);
+	border:2px solid black;
+	
+
+}
+.social{
+	text-align:center;
+	position:bottom;
+}
+li.dif{
+	list-style:none;
+	margin:10px 30px;
+	display:inline-block;
+	font-size:30px;
+	padding:10px 10px;
+	color:white;
+	border:2px solid white;
+	border-radius:70%;
+	/*transition: .5s;*/
+	cursor:pointer;
+}
+li.dif:hover{
+	color:red;
+	border:3px solid white;
+	transition:.7s;
+	transform:scale(1.2);
+}
+.foot1{
+	text-align:center;
+	color:white;
+	font-family: 'Courgette', cursive;
+}
+.foot2{
+color:white;
+float:right;
+margin-right:30px;
+font-family: 'Courgette', cursive;
+}
+.dp{
+margin-left:0px;
+border:3px solid black;
+box-shadow:0px 8px 8px 4px black;
+
+height:500px;
+width:1200px;
+}
+
+
+
+
+.dp {
+	-webkit-animation: kenburns-top-right 5s ease-out both;
+	        animation: kenburns-top-right 5s ease-out both;
+}
+@-webkit-keyframes kenburns-top-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 16%;
+            transform-origin: 84% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(20px, -15px);
+            transform: scale(1.25) translate(20px, -15px);
+    -webkit-transform-origin: right top;
+            transform-origin: right top;
+  }
+}
+@keyframes kenburns-top-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 16%;
+            transform-origin: 84% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translate(20px, -15px);
+            transform: scale(1.25) translate(20px, -15px);
+    -webkit-transform-origin: right top;
+            transform-origin: right top;
+  }
+}
+
+
+
+
+
+
+
+
+
